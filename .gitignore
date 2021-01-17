@@ -1,0 +1,4 @@
+# Project exclude paths
+/java-escape/target/
+/out/
+/spring-escape/target/

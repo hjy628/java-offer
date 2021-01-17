@@ -1,0 +1,29 @@
+spring:
+  task:
+#    scheduling:
+#      pool:
+#        size: 5
+  profiles:
+    active: pro
+  jpa:
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?autoReconnect=true&useUnicode=true
+    username: root
+    password: 123456
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 20
+      idle-timeout: 500000
+      max-lifetime: 540000
+      connection-timeout: 60000
+      connection-test-query: SELECT 1
+      pool-name: SpringEscapeHikariPool
+
+
+escape:
+  user:
+    name: wangdan-root
+    age: 18

@@ -1,0 +1,15 @@
+###
+GET http://localhost:8080/needDate/param?date=2021-01-08 18:01:00
+Accept: application/json
+
+###
+POST http://localhost:8080/needDate/user
+Content-Type: application/json
+
+{
+   "id": "1",
+  "name": "wangdan",
+  "birthday": "2021-01-09 10:22:34"
+}
+
+###

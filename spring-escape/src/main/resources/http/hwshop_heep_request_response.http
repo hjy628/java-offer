@@ -1,0 +1,12 @@
+
+###
+POST http://localhost:8080/user/wangdan
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "wangdan",
+  "age": 18
+}
+
+###
