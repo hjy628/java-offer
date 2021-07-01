@@ -23,6 +23,11 @@ spring:
       pool-name: SpringEscapeHikariPool
 
 
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/webflux
+
+
 escape:
   user:
     name: wangdan-root
